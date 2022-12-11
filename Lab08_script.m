@@ -231,4 +231,6 @@ m_B = simulation.simout;
 
 ABN = simulation.simout7;
 traccia = simulation.simout8;
+errore = simulation.simout5;
+
 %out3 = simulation.simout4;

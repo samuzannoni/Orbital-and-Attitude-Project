@@ -223,13 +223,12 @@ A_epsilon = [1, around_boresight/2 + around_boresight/2*time_effect, -(cross_bor
 
 %% simulation
 peso= 1/6;
-V = m_N';
-V_pseudoinv = V'*(inv(V*V'));
+% V = m_N';
+% V_pseudoinv = V'*(inv(V*V'));
 
 simulation = sim("Lab08.slx");
 m_B = simulation.simout;
 
 ABN = simulation.simout7;
-errore= simulation.simout4;
-% out1 = simulation.simout5;
-% out2 = simulation.simout6;
+traccia = simulation.simout8;
+%out3 = simulation.simout4;
